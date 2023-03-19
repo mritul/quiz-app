@@ -10,4 +10,6 @@
 
 [Github Repo](https://github.com/mritul/quiz-app)
 
+[Alternate(GH Pages URL)](https://mritul.github.io/quiz-app/)
+
 [Live Site URL](https://mritul-quiz-app.netlify.app)
