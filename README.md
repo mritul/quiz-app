@@ -10,4 +10,4 @@
 
 [Github Repo](https://github.com/mritul/quiz-app)
 
-[Live Site URL]()
+[Live Site URL](https://mritul-quiz-app.netlify.app)
