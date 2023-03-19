@@ -1,0 +1,89 @@
+main{
+    align-items: start;
+}
+
+.game{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 2rem;
+    padding:2rem;
+}
+
+.question{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.category{
+    font-weight: 700;
+    color: rgb(204, 204, 204);
+    margin-bottom: 2rem;
+}
+
+.category span{
+    font-weight: 400;
+}
+
+
+.choice{
+    color:white;
+    margin-bottom:2rem ;
+}
+
+.options{
+    width: 60%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+
+.option{
+    width: 100%;
+    padding:0.6rem;
+    background: rgba(217, 217, 217, 0.32);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.option:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.option>h1{
+    font-size: 1.2rem;
+    color:white;
+    font-weight: 300;
+}
+
+.score{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.score span{
+    font-weight: 700;
+}
+
+.next-btn{
+    margin-top: 2rem;
+    width: 150px;
+    color:white;
+    font-size:1.2rem;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.next-btn:hover{
+    color:#6c20f6;
+    background-color: white;
+    transition: 0.5s;
+}

@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(121.42deg, #0500FD -21.72%, rgba(215, 0, 234, 0.67) 104.78%);
+}
+
+nav{
+    background: rgba(217, 217, 217, 0.37);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 1.5rem;
+    height:10vh;
+}
+
+.brand{
+    color:#E6E6E6;
+}
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button{
+    border:none;
+    background: none;
+    outline:none;
+    cursor:pointer;
+}
+
+/* Home Page */
+main{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.landing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+}
+
+#landing-title{
+    max-width: 700px;
+    text-align: center;
+    font-size: 2rem;
+    justify-self: start;
+    color:white;
+}
+
+.start-btn{
+    width: 150px;
+    color:white;
+    font-size:1.2rem;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.start-btn:hover{
+    color:#6c20f6;
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* Modal */
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width:700px;
+    height:500px;
+    border:none;
+    /* background: rgb(179, 179, 179); */
+    background-color: rgba(179, 179, 179, 0.61);
+    backdrop-filter: blur(5px);
+    border-radius: 12px;    
+}
+
+.modal>div{
+    width:700px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+
+.username-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+
+.modal>div>h1{
+    color:white;
+    font-weight: 300;
+}
+
+#username-input{
+    background: rgba(254, 254, 254, 0.8);
+    border-radius: 9px;
+    height:45px;
+    border:none;
+    outline:none;
+    padding:0.5rem;
+}
+
+.btn-panel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+.continue-btn,.back-btn{
+    font-size: 1rem;
+    width:130px;
+    background-color: white;
+    padding: 0.3rem 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.back-btn{
+    color:#6c20f6;
+}
+
+.back-btn:hover{
+    opacity:0.7;
+    transition: 0.5s;
+}
+
+.continue-btn{
+    color:white;
+    border:solid 2px white;
+    background: none;
+}
+
+.continue-btn:hover{
+    color:#6c20f6;
+    background-color: white;
+    transition: 0.5s;
+}
