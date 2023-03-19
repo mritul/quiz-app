@@ -13,5 +13,5 @@ backBtn.addEventListener('click',()=>{
 
 usernameForm.addEventListener('submit',(e)=>{
     e.preventDefault();
-    location.href = "/game.html"
+    location.href = "/quiz-app/game.html"
 })
