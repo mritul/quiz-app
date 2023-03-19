@@ -61,7 +61,7 @@ const loadOptions = ()=>{
 
 const endGame = ()=>{
     alert(`Congrats on reaching the end... Your score was ${score}`)
-    location.href = "/quiz-app/index.html"
+    location.href = "index.html"
 }
 
 window.addEventListener('load',async()=>{
